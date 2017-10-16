@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MoreCustomCell.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MoreCustomCell</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MoreCustomCell/setLblTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) IBOutlet UILabel *lblTitle</Declaration>
+			
+			
+			<Anchor>//api/name/lblTitle</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MoreCustomCell/lblTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) IBOutlet UILabel *lblTitle</Declaration>
+			
+			
+			<Anchor>//api/name/lblTitle</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MoreCustomCell/lblTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) IBOutlet UILabel *lblTitle</Declaration>
+			
+			
+			<Anchor>//api/name/lblTitle</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MoreCustomCell/awakeFromNib</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.m</DeclaredIn>
+			
+			<Declaration>- (void)awakeFromNib</Declaration>
+			
+			
+			<Anchor>//api/name/awakeFromNib</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MoreCustomCell/setSelected:animated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MoreCustomCell.m</DeclaredIn>
+			
+			<Declaration>- (void)setSelected:(BOOL)selected animated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/setSelected:animated:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

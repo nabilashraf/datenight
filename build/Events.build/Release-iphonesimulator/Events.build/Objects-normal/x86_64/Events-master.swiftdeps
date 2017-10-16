@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "41e49c00cb76319f97970fe70697b47c"
+build_time: [553107127, 100093000]
+inputs:
+  "/Users/muhammadshabbir/Downloads/Source/Events/PostDetailViewController.swift": !dirty [553031385, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/PostCell.swift": !dirty [552910265, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/MyMenuTableViewController.swift": !dirty [553106393, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/StartCategoryCell.swift": !dirty [552835207, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/HalfCategoryCell.swift": !dirty [552913975, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/ENSideMenuNavigationController.swift": !dirty [544122322, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/ENSideMenu.swift": !dirty [544122322, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/MyNavController.swift": !dirty [552832391, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/MenuTopViewCell.swift": !dirty [553028859, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/HintsAndTipsViewController.swift": !dirty [553031259, 0]
+  "/Users/muhammadshabbir/Downloads/Source/Events/FirstPostViewCell.swift": !dirty [553027790, 0]

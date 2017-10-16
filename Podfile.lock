@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CZPicker (0.4.3)
+  - FSCalendar (2.7.9)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - Just (0.6.0)
+  - SDFeedParser (1.0):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - CZPicker
+  - FSCalendar
+  - GoogleMaps (= 2.3.0)
+  - Just
+  - SDFeedParser
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  Just: 0b60164cc2b516fbddd8948ef7841c70896f1e4d
+  SDFeedParser: 95c0b427e28358511c41f83a645f4cc27844e1f6
+
+PODFILE CHECKSUM: d97aa949752a2bc253196ff99cc1ad027ffffcc9
+
+COCOAPODS: 1.2.1

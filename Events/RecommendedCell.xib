@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hanken-Light.ttf">
+            <string>Hanken-Light</string>
+        </array>
+        <array key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="286" id="KGk-i7-Jjw" customClass="RecommendedCell" customModule="Events" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="289.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2We-uG-N6G">
+                        <rect key="frame" x="9" y="8" width="304" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Jgg-Ba-fkG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Hanken-Light" family="Hanken" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why not add one of these to top off the night" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BQ-lG-4bJ">
+                        <rect key="frame" x="9" y="40" width="303" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="ao6-7J-ADG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-5j-tnj">
+                        <rect key="frame" x="9" y="89" width="303" height="192"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gqd-2n-WNu">
+                            <size key="itemSize" width="193" height="192"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="hfR-5j-tnj" secondAttribute="bottom" constant="0.5" id="0Qk-rw-g4z"/>
+                    <constraint firstItem="6BQ-lG-4bJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="1" id="DPZ-kp-c6Y"/>
+                    <constraint firstAttribute="trailing" secondItem="2We-uG-N6G" secondAttribute="trailing" constant="7" id="DyV-Nx-1BJ"/>
+                    <constraint firstItem="hfR-5j-tnj" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Mw8-Af-4vm"/>
+                    <constraint firstItem="hfR-5j-tnj" firstAttribute="top" secondItem="6BQ-lG-4bJ" secondAttribute="bottom" constant="8" id="Z5a-8v-CPf"/>
+                    <constraint firstItem="6BQ-lG-4bJ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="bsD-9o-QPo"/>
+                    <constraint firstItem="2We-uG-N6G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ctp-Ai-rIx"/>
+                    <constraint firstItem="hfR-5j-tnj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="1" id="ejb-bA-wyg"/>
+                    <constraint firstItem="2We-uG-N6G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="kOL-A1-jb6"/>
+                    <constraint firstItem="6BQ-lG-4bJ" firstAttribute="top" secondItem="2We-uG-N6G" secondAttribute="bottom" constant="8" id="yrz-gm-6ps"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collView" destination="hfR-5j-tnj" id="fSo-bO-6ab"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="175"/>
+        </tableViewCell>
+    </objects>
+</document>

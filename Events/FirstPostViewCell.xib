@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hanken-Book.ttf">
+            <string>Hanken-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FirstPostViewCell" customModule="Events" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EVp-UV-mVl">
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="KS6-aF-mSf"/>
+                            <constraint firstAttribute="width" constant="415" id="f9c-WA-nNr"/>
+                        </constraints>
+                    </imageView>
+                    <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKq-9E-Son">
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="250"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="415" id="HPX-bp-s0j"/>
+                            <constraint firstAttribute="height" constant="250" id="yjT-r1-xOO"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNT-IP-YFZ">
+                        <rect key="frame" x="8" y="132" width="399" height="98"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="98" id="5Ym-MQ-OdM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Hanken-Book" family="Hanken" pointSize="21"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kKq-9E-Son" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="21v-5o-PuS"/>
+                <constraint firstAttribute="trailing" secondItem="DNT-IP-YFZ" secondAttribute="trailing" constant="8" id="9Ro-Pq-Tua"/>
+                <constraint firstAttribute="bottom" secondItem="DNT-IP-YFZ" secondAttribute="bottom" constant="20" id="Hee-ct-wtJ"/>
+                <constraint firstAttribute="bottom" secondItem="EVp-UV-mVl" secondAttribute="bottom" id="I7H-cD-AT8"/>
+                <constraint firstItem="kKq-9E-Son" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ILI-oT-hlg"/>
+                <constraint firstItem="DNT-IP-YFZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="UbP-lm-4EP"/>
+                <constraint firstAttribute="trailing" secondItem="kKq-9E-Son" secondAttribute="trailing" id="dqF-hg-u1z"/>
+                <constraint firstItem="EVp-UV-mVl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mIl-t5-Qdq"/>
+                <constraint firstAttribute="bottom" secondItem="kKq-9E-Son" secondAttribute="bottom" id="nMq-KF-Ejf"/>
+                <constraint firstAttribute="trailing" secondItem="EVp-UV-mVl" secondAttribute="trailing" id="uuk-VR-IPE"/>
+                <constraint firstItem="EVp-UV-mVl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xKm-qp-Gqh"/>
+            </constraints>
+            <size key="customSize" width="253" height="211"/>
+            <connections>
+                <outlet property="postLabel" destination="DNT-IP-YFZ" id="lLb-Gh-vdA"/>
+                <outlet property="thumbImage" destination="EVp-UV-mVl" id="BxP-I3-yeP"/>
+            </connections>
+            <point key="canvasLocation" x="135.5" y="134"/>
+        </collectionViewCell>
+    </objects>
+</document>

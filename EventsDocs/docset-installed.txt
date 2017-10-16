@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/manishkumar/Library/Developer/Shared/Documentation/DocSets/com.yourcompany.Events.docset
+Time: 2014-10-31 19:24:44 +0000
